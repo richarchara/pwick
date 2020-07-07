@@ -1,0 +1,17 @@
+$Fuente1: 'Lato', sans-serif;
+$Fuente2: 'Oswald', sans-serif;
+$color-primario: #333333;
+$color-claro: #ffffff;
+$color-secundario: #8841DA;
+$color-variacion: #3f579a;
+footer{
+    width: 100%;
+	height: 50px;
+	background-color: $color-claro;
+	border-top: 35px $color-secundario;
+    text-align: center;
+    p{
+    margin-top: 30px;
+    color: $color-secundario;
+    }
+}

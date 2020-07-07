@@ -1,0 +1,29 @@
+$Fuente1: 'Lato', sans-serif;
+$Fuente2: 'Oswald', sans-serif;
+$color-primario: #333333;
+$color-claro: #ffffff;
+$color-secundario: #8841DA;
+$color-variacion: #3f579a;
+.ubicacion--perfil{
+    width: 50%;
+    height: 90px;
+    margin: 30px auto;
+    padding: 20px 0 0 50px;
+    @include caja;
+    i{
+        display: block;
+        float: left;
+        padding-right: 10px;
+        font-size: 40px;
+        color: $color-variacion;
+    }
+    h2{
+        font-weight: 600;
+        font-size: 20px;
+        @include titulos($Fuente2);
+    }
+    h3{
+        font-size: 12px;
+        @include titulos($Fuente2);
+    }
+}
